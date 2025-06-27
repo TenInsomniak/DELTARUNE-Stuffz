@@ -1,0 +1,11 @@
+{
+  "item.deltarune-stuffz.debug_weapon": "Debug Weapon",
+  "item.deltarune-stuffz.debug_helmet": "Debug Helmet",
+
+  "item.deltarune-stuffz.wood_blade": "Wood Blade",
+  "itemGroup.deltarune-stuffz.deltarune_weapons": "DELTARUNE Weapons",
+  "itemGroup.deltarune-stuffz.deltarune_armour": "DELTARUNE Armour",
+  "itemGroup.deltarune-stuffz.deltarune_blocks": "DELTARUNE Blocks",
+  "itemGroup.deltarune-stuffz.deltarune_items": "DELTARUNE Items",
+  "itemGroup.deltarune-stuffz.deltarune_mobs": "DELTARUNE Mobs"
+}

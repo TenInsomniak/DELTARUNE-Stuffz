@@ -2,6 +2,7 @@ package net.teninsomniak.deltarunestuffz;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.teninsomniak.deltarunestuffz.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class DELTARUNEStuffz implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
