@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "deltarune-stuffz",
+	"version": "${version}",
+	"name": "DELTARUNE Stuffz",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/deltarune-stuffz/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffz"
+		],
+		"fabric-datagen": [
+			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffzDataGenerator"
+		]
+	},
+	"mixins": [
+		"deltarune-stuffz.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
