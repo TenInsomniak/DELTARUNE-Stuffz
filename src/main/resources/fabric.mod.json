@@ -3,20 +3,23 @@
 	"id": "deltarune-stuffz",
 	"version": "${version}",
 	"name": "DELTARUNE Stuffz",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that adds stuff from the hit idie game DELTARUNE.",
 	"authors": [
-		"Me!"
+		"Ten Insomniak"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TenInsomniak/DELTARUNE-Stuffz"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/deltarune-stuffz/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffz"
+		],
+		"client": [
+			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffzClient"
 		],
 		"fabric-datagen": [
 			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffzDataGenerator"
