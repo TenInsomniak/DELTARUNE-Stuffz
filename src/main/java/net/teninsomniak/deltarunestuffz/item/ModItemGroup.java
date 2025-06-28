@@ -18,4 +18,6 @@ public class ModItemGroup {
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_items"), () -> new ItemStack(Items.STICK));
     public static final ItemGroup DELTARUNE_MOBS = FabricItemGroupBuilder.build(
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_mobs"), () -> new ItemStack(Items.PIG_SPAWN_EGG));
+    public static final ItemGroup DELTARUNE_UNUSED = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_unused"), () -> new ItemStack(Items.BARRIER));
 }

@@ -1,0 +1,10 @@
+{
+  "friend_inside_me": {
+    "sounds": [
+      {
+        "name": "deltarune-stuffz:friend_inside_me",
+        "stream": true
+      }
+    ]
+  }
+}
