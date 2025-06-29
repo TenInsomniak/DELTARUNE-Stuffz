@@ -8,6 +8,7 @@ import net.teninsomniak.deltarunestuffz.DELTARUNEStuffz;
 public class ModSounds {
 
     public static final SoundEvent FRIEND_INSIDE_ME = registerSoundEvent("friend_inside_me");
+    public static final SoundEvent DONT_FORGET = registerSoundEvent("dont_forget");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(DELTARUNEStuffz.MOD_ID, name);

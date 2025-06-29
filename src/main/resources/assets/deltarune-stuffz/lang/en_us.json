@@ -2,14 +2,78 @@
   "item.deltarune-stuffz.debug_weapon": "Debug Weapon",
   "item.deltarune-stuffz.debug_helmet": "Debug Helmet",
 
+
+
   "item.deltarune-stuffz.wood_blade": "Wood Blade",
+  "item.deltarune-stuffz.trefoil": "Trefoil (Unfinished)",
+  "item.deltarune-stuffz.mecha_saber": "Mecha Saber",
+  "item.deltarune-stuffz.twisted_sword": "Twisted Sword (Unfinished)",
+  "item.deltarune-stuffz.bounce_blade": "Bounce Blade",
+  "item.deltarune-stuffz.spookysword": "Spooky Sword",
+  "item.deltarune-stuffz.broken_sword": "Broken Sword",
+  "item.deltarune-stuffz.saber_ten": "Saber10",
+  "item.deltarune-stuffz.winglade_sword": "Winglade (Sword)",
+  "item.deltarune-stuffz.jingle_blade": "Jingle Blade",
+  "item.deltarune-stuffz.black_shard": "Black Shard (Unfinished)",
+
+
+  "itemTooltip.deltarune-stuffz.press_shift": "Hold Shift for item descriprion!",
+
+
+  "itemTooltip.deltarune-stuffz.wood_blade_desc": "A wooden practice blade with a carbon-reinforced core.",
+  "itemTooltip.deltarune-stuffz.wood_blade_stat1": "- +1 Attack",
+
+  "itemTooltip.deltarune-stuffz.trefoil_desc": "Mossy rapier with a clover emblem.",
+  "itemTooltip.deltarune-stuffz.trefoil_stat1": "- +4 Attack",
+  "itemTooltip.deltarune-stuffz.trefoil_stat2": "- Increases $ found by 5%",
+
+  "itemTooltip.deltarune-stuffz.mecha_saber_desc": "The blade extends when you press the hilt. CHA-CHK!",
+  "itemTooltip.deltarune-stuffz.mecha_saber_stat1": "- +4 Attack",
+  "itemTooltip.deltarune-stuffz.mecha_saber_stat2": "- Annoying",
+
+  "itemTooltip.deltarune-stuffz.twisted_sword_desc": "A strange blade.",
+  "itemTooltip.deltarune-stuffz.twisted_sword_stat1": "- +16 Attack",
+  "itemTooltip.deltarune-stuffz.twisted_sword_stat2": "- Trance Down",
+
+  "itemTooltip.deltarune-stuffz.bounce_blade_desc": "A pink saber with a rubber blade. Weak, but increases defence.",
+  "itemTooltip.deltarune-stuffz.bounce_blade_stat1": "- +2 Attack",
+  "itemTooltip.deltarune-stuffz.bounce_blade_stat2": "- +1 Defense",
+
+  "itemTooltip.deltarune-stuffz.spookysword_desc": "A black-and-orange sword with a bat hilt.",
+  "itemTooltip.deltarune-stuffz.spookysword_stat1": "- +2 Attack",
+  "itemTooltip.deltarune-stuffz.spookysword_stat2": "- Spookiness UP",
+
+  "itemTooltip.deltarune-stuffz.broken_sword_desc": "A rejected sword cut into 2 pieces.",
+  "itemTooltip.deltarune-stuffz.broken_sword_stat1": "- Not even you can use this...",
+  "itemTooltip.deltarune-stuffz.broken_sword_stat2": "- Failure",
+
+  "itemTooltip.deltarune-stuffz.saber_ten_desc": "A saber made of 10 cactus needles. Fortunately, can deal more than 10 damage.",
+  "itemTooltip.deltarune-stuffz.saber_ten_stat1": "- +6 Attack",
+
+  "itemTooltip.deltarune-stuffz.winglade_sword_desc": "A majestic sword with a white feathered hilt. Slightly increases money won.",
+  "itemTooltip.deltarune-stuffz.winglade_sword_stat1": "- +8 Attack",
+  "itemTooltip.deltarune-stuffz.winglade_sword_stat2": "- +5% DarkDollars",
+
+  "itemTooltip.deltarune-stuffz.jingle_blade_desc": "A lance-like sword with red and white stripes. Perfect for jousting.",
+  "itemTooltip.deltarune-stuffz.jingle_blade_stat1": "- +7 Attack",
+  "itemTooltip.deltarune-stuffz.jingle_blade_stat2": "- +1 Defense",
+  "itemTooltip.deltarune-stuffz.jingle_blade_stat3": "- Festive",
+
+  "itemTooltip.deltarune-stuffz.black_shard_desc": "A dagger-like shard of the Black Knife. Strikes the weakness of dark-element enemies.",
+  "itemTooltip.deltarune-stuffz.black_shard_stat1": "- +16 Attack",
+  "itemTooltip.deltarune-stuffz.black_shard_stat2": "- Deals more damage against Dark-Type Enemies",
+
+
   "item.deltarune-stuffz.friend_inside_me_musicdisc": "Music Disc",
   "item.deltarune-stuffz.friend_inside_me_musicdisc.desc": "Toby Fox - ???",
+  "item.deltarune-stuffz.dont_forget_musicdisc": "Music Disc",
+  "item.deltarune-stuffz.dont_forget_musicdisc.desc": "Laura Shigihara - Don't Forget",
 
 
   "itemGroup.deltarune-stuffz.deltarune_weapons": "DELTARUNE Weapons",
   "itemGroup.deltarune-stuffz.deltarune_armour": "DELTARUNE Armour",
   "itemGroup.deltarune-stuffz.deltarune_blocks": "DELTARUNE Blocks",
   "itemGroup.deltarune-stuffz.deltarune_items": "DELTARUNE Items",
-  "itemGroup.deltarune-stuffz.deltarune_mobs": "DELTARUNE Mobs"
+  "itemGroup.deltarune-stuffz.deltarune_mobs": "DELTARUNE Mobs",
+  "itemGroup.deltarune-stuffz.deltarune_unused": "DELTARUNE Unused"
 }

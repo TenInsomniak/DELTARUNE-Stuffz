@@ -9,7 +9,7 @@ import net.teninsomniak.deltarunestuffz.DELTARUNEStuffz;
 
 public class ModItemGroup {
     public static final ItemGroup DELTARUNE_WEAPONS = FabricItemGroupBuilder.build(
-            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_weapons"), () -> new ItemStack(ModItems.DEBUG_WEAPON));
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_weapons"), () -> new ItemStack(ModItems.WOOD_BLADE));
     public static final ItemGroup DELTARUNE_ARMOUR = FabricItemGroupBuilder.build(
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_armour"), () -> new ItemStack(ModItems.DEBUG_HELMET));
     public static final ItemGroup DELTARUNE_BLOCKS = FabricItemGroupBuilder.build(

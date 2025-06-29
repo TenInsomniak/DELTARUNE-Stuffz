@@ -1,0 +1,13 @@
+{
+  "parent": "deltarune-stuffz:item/dr_sword",
+  "textures": {
+    "layer0": "deltarune-stuffz:item/mecha_saber"
+  },
+  "display": {
+    "gui": {
+      "rotation": [ 0, 0, 0],
+      "translation": [ 0, 0, 0],
+      "scale": [ 1, 1, 1]
+    }
+  }
+}

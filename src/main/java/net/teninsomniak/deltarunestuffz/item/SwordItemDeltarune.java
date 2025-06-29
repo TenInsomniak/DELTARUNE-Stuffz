@@ -1,12 +1,40 @@
 package net.teninsomniak.deltarunestuffz.item;
 
+import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.util.UseAction;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class SwordItemDeltarune extends SwordItem {
-    public SwordItemDeltarune(ToolMaterial toolMaterial, int bonusAttackDamage, Settings settings) {
+    public SwordItemDeltarune(ToolMaterial toolMaterial, int bonusAttackDamage, Settings settings, String itemId) {
         super(toolMaterial, bonusAttackDamage+2, -2.4f, settings);
+        item_id = itemId;
+    }
+    public String item_id;
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        if (!Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz.press_shift").formatted(Formatting.DARK_GRAY));
+        } else {
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_desc").formatted(Formatting.DARK_GRAY));
+        }
+        if (item_id.equals("jingle_blade")) {
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat2").formatted(Formatting.GRAY));
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat3").formatted(Formatting.GRAY));
+        } else if (item_id.equals("wood_blade") || item_id.equals("saber_ten")) {
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
+        } else {
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
+            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat2").formatted(Formatting.GRAY));
+        }
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }
