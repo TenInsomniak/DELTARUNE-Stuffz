@@ -9,30 +9,26 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ToolMaterialsDeltarune implements ToolMaterial {
-    SWORD(4, 2031, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT})),
-    AXE(4, 2031, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT})),
-    SCARF(4, 2031, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT}));
+    SWORD(4, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT})),
+    AXE(4,  8.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT})),
+    SCARF(4, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(new ItemConvertible[]{Items.IRON_INGOT}));
 
     private final int miningLevel;
-    private final int itemDurability;
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
 
-    private ToolMaterialsDeltarune(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    private ToolMaterialsDeltarune(int miningLevel, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
-        this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
         this.repairIngredient = new Lazy(repairIngredient);
     }
-
     public int getDurability() {
-        return this.itemDurability;
+        return -1;
     }
-
     public float getMiningSpeedMultiplier() {
         return this.miningSpeed;
     }

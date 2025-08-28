@@ -8,10 +8,16 @@ import net.minecraft.util.Identifier;
 import net.teninsomniak.deltarunestuffz.DELTARUNEStuffz;
 
 public class ModItemGroup {
-    public static final ItemGroup DELTARUNE_WEAPONS = FabricItemGroupBuilder.build(
-            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_weapons"), () -> new ItemStack(ModItems.WOOD_BLADE));
+    public static final ItemGroup DELTARUNE_SWORDS = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_swords"), () -> new ItemStack(ModItems.WOOD_BLADE));
+    public static final ItemGroup DELTARUNE_AXES = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_axes"), () -> new ItemStack(ModItems.MANE_AX));
+    public static final ItemGroup DELTARUNE_SCARVES = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_scarves"), () -> new ItemStack(Items.WAXED_WEATHERED_CUT_COPPER_STAIRS));
+    public static final ItemGroup DELTARUNE_RINGS = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_rings"), () -> new ItemStack(ModItems.SNOW_RING));
     public static final ItemGroup DELTARUNE_ARMOUR = FabricItemGroupBuilder.build(
-            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_armour"), () -> new ItemStack(ModItems.DEBUG_HELMET));
+            new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_armour"), () -> new ItemStack(Items.DIAMOND_HELMET));
     public static final ItemGroup DELTARUNE_BLOCKS = FabricItemGroupBuilder.build(
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_blocks"), () -> new ItemStack(Items.STICKY_PISTON));
     public static final ItemGroup DELTARUNE_ITEMS = FabricItemGroupBuilder.build(

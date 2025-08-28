@@ -25,16 +25,7 @@ public class SwordItemDeltarune extends SwordItem {
         } else {
             tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_desc").formatted(Formatting.DARK_GRAY));
         }
-        if (item_id.equals("jingle_blade")) {
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat2").formatted(Formatting.GRAY));
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat3").formatted(Formatting.GRAY));
-        } else if (item_id.equals("wood_blade") || item_id.equals("saber_ten")) {
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
-        } else {
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat1").formatted(Formatting.GRAY));
-            tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stat2").formatted(Formatting.GRAY));
-        }
+        tooltip.add(Text.translatable("itemTooltip.deltarune-stuffz." + item_id + "_stats").formatted(Formatting.GRAY));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

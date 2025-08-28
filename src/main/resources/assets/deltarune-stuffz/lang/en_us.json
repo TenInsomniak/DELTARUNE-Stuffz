@@ -4,64 +4,95 @@
 
 
 
-  "item.deltarune-stuffz.wood_blade": "Wood Blade",
-  "item.deltarune-stuffz.trefoil": "Trefoil (Unfinished)",
-  "item.deltarune-stuffz.mecha_saber": "Mecha Saber",
-  "item.deltarune-stuffz.twisted_sword": "Twisted Sword (Unfinished)",
-  "item.deltarune-stuffz.bounce_blade": "Bounce Blade",
-  "item.deltarune-stuffz.spookysword": "Spooky Sword",
-  "item.deltarune-stuffz.broken_sword": "Broken Sword",
-  "item.deltarune-stuffz.saber_ten": "Saber10",
-  "item.deltarune-stuffz.winglade_sword": "Winglade (Sword)",
-  "item.deltarune-stuffz.jingle_blade": "Jingle Blade",
-  "item.deltarune-stuffz.black_shard": "Black Shard (Unfinished)",
-
-
   "itemTooltip.deltarune-stuffz.press_shift": "Hold Shift for item descriprion!",
 
-
+  "item.deltarune-stuffz.wood_blade": "Wood Blade",
   "itemTooltip.deltarune-stuffz.wood_blade_desc": "A wooden practice blade with a carbon-reinforced core.",
-  "itemTooltip.deltarune-stuffz.wood_blade_stat1": "- +1 Attack",
+  "itemTooltip.deltarune-stuffz.wood_blade_stats": "- +1 Attack",
 
+  "item.deltarune-stuffz.trefoil": "Trefoil (Unfinished)",
   "itemTooltip.deltarune-stuffz.trefoil_desc": "Mossy rapier with a clover emblem.",
-  "itemTooltip.deltarune-stuffz.trefoil_stat1": "- +4 Attack",
-  "itemTooltip.deltarune-stuffz.trefoil_stat2": "- Increases $ found by 5%",
+  "itemTooltip.deltarune-stuffz.trefoil_stats": "- +4 Attack\n- Increases $ found by 5%",
 
+  "item.deltarune-stuffz.mecha_saber": "Mecha Saber",
   "itemTooltip.deltarune-stuffz.mecha_saber_desc": "The blade extends when you press the hilt. CHA-CHK!",
-  "itemTooltip.deltarune-stuffz.mecha_saber_stat1": "- +4 Attack",
-  "itemTooltip.deltarune-stuffz.mecha_saber_stat2": "- Annoying",
+  "itemTooltip.deltarune-stuffz.mecha_saber_stats": "- +4 Attack\n- Annoying",
 
+  "item.deltarune-stuffz.twisted_sword": "Twisted Sword (Unfinished)",
   "itemTooltip.deltarune-stuffz.twisted_sword_desc": "A strange blade.",
-  "itemTooltip.deltarune-stuffz.twisted_sword_stat1": "- +16 Attack",
-  "itemTooltip.deltarune-stuffz.twisted_sword_stat2": "- Trance Down",
+  "itemTooltip.deltarune-stuffz.twisted_sword_stats": "- +16 Attack\n- Trance Down",
 
+  "item.deltarune-stuffz.bounce_blade": "Bounce Blade",
   "itemTooltip.deltarune-stuffz.bounce_blade_desc": "A pink saber with a rubber blade. Weak, but increases defence.",
-  "itemTooltip.deltarune-stuffz.bounce_blade_stat1": "- +2 Attack",
-  "itemTooltip.deltarune-stuffz.bounce_blade_stat2": "- +1 Defense",
+  "itemTooltip.deltarune-stuffz.bounce_blade_stats": "- +2 Attack\n- +1 Defense",
 
+  "item.deltarune-stuffz.spookysword": "Spooky Sword",
   "itemTooltip.deltarune-stuffz.spookysword_desc": "A black-and-orange sword with a bat hilt.",
-  "itemTooltip.deltarune-stuffz.spookysword_stat1": "- +2 Attack",
-  "itemTooltip.deltarune-stuffz.spookysword_stat2": "- Spookiness UP",
+  "itemTooltip.deltarune-stuffz.spookysword_stats": "- +2 Attack\n- Spookiness UP",
 
+  "item.deltarune-stuffz.broken_sword": "Broken Sword",
   "itemTooltip.deltarune-stuffz.broken_sword_desc": "A rejected sword cut into 2 pieces.",
-  "itemTooltip.deltarune-stuffz.broken_sword_stat1": "- Not even you can use this...",
-  "itemTooltip.deltarune-stuffz.broken_sword_stat2": "- Failure",
+  "itemTooltip.deltarune-stuffz.broken_sword_stats": "- Not even you can use this...",
 
+  "item.deltarune-stuffz.saber_ten": "Saber10",
   "itemTooltip.deltarune-stuffz.saber_ten_desc": "A saber made of 10 cactus needles. Fortunately, can deal more than 10 damage.",
-  "itemTooltip.deltarune-stuffz.saber_ten_stat1": "- +6 Attack",
+  "itemTooltip.deltarune-stuffz.saber_ten_stats": "- +6 Attack",
 
+  "item.deltarune-stuffz.winglade_sword": "Winglade (Sword)",
   "itemTooltip.deltarune-stuffz.winglade_sword_desc": "A majestic sword with a white feathered hilt. Slightly increases money won.",
-  "itemTooltip.deltarune-stuffz.winglade_sword_stat1": "- +8 Attack",
-  "itemTooltip.deltarune-stuffz.winglade_sword_stat2": "- +5% DarkDollars",
+  "itemTooltip.deltarune-stuffz.winglade_sword_stats": "- +8 Attack\n- +5% DarkDollars",
 
+  "item.deltarune-stuffz.jingle_blade": "Jingle Blade",
   "itemTooltip.deltarune-stuffz.jingle_blade_desc": "A lance-like sword with red and white stripes. Perfect for jousting.",
-  "itemTooltip.deltarune-stuffz.jingle_blade_stat1": "- +7 Attack",
-  "itemTooltip.deltarune-stuffz.jingle_blade_stat2": "- +1 Defense",
-  "itemTooltip.deltarune-stuffz.jingle_blade_stat3": "- Festive",
+  "itemTooltip.deltarune-stuffz.jingle_blade_stats": "- +7 Attack\n- +1 Defense\n- Festive",
 
+  "item.deltarune-stuffz.black_shard": "Black Shard (Unfinished)",
   "itemTooltip.deltarune-stuffz.black_shard_desc": "A dagger-like shard of the Black Knife. Strikes the weakness of dark-element enemies.",
-  "itemTooltip.deltarune-stuffz.black_shard_stat1": "- +16 Attack",
-  "itemTooltip.deltarune-stuffz.black_shard_stat2": "- Deals more damage against Dark-Type Enemies",
+  "itemTooltip.deltarune-stuffz.black_shard_stats": "- +16 Attack\n- Deals more damage against Dark-Type Enemies",
+
+
+
+  "item.deltarune-stuffz.mane_ax": "Mane Ax",
+  "itemTooltip.deltarune-stuffz.mane_ax_desc": "Beginner's ax forged from the mane of a dragon whelp.",
+
+  "item.deltarune-stuffz.brave_ax": "Brave Ax",
+  "itemTooltip.deltarune-stuffz.brave_ax_desc": "A glossy ax from a block warrior. Suitable for heroes.",
+  "itemTooltip.deltarune-stuffz.brave_ax_stats": "- +2 Attack\n- Guts UP",
+
+  "item.deltarune-stuffz.devilsknife": "Devils Knife",
+  "itemTooltip.deltarune-stuffz.devilsknife_desc": "Skull-emblazoned scythe-ax. Reduces Rudebuster's cost by 10",
+  "itemTooltip.deltarune-stuffz.devilsknife_stats": "- +5 Attack\n- +4 Magic\n- Buster TP DOWN",
+
+  "item.deltarune-stuffz.auto_axe": "Auto Axe",
+  "itemTooltip.deltarune-stuffz.auto_axe_desc": "Make sure to charge it by plugging it into the wall.",
+  "itemTooltip.deltarune-stuffz.auto_axe_stats": "- +4 Attack\n- Bad Idea",
+
+  "item.deltarune-stuffz.toxic_axe": "Toxic Axe",
+  "itemTooltip.deltarune-stuffz.toxic_axe_desc": "An axe used to clear wastelands in a fetid swamp. Not poison but gross.",
+  "itemTooltip.deltarune-stuffz.toxic_axe_stats": "- +6 Attack",
+
+  "item.deltarune-stuffz.justice_axe": "Justice Axe",
+  "itemTooltip.deltarune-stuffz.justice_axe_desc": "It has no special powers. However, in order to attain this item, you became much stronger",
+  "itemTooltip.deltarune-stuffz.justice_axe_stats": "- +12 Attack",
+
+  "item.deltarune-stuffz.absorb_ax": "Absorb Ax",
+  "itemTooltip.deltarune-stuffz.absorb_ax_desc": "A long, curved axe with an indent. Scoop up HP when you attack.",
+  "itemTooltip.deltarune-stuffz.absorb_ax_stats": "- +8 Attack\n- Vampire",
+
+
+
+  "item.deltarune-stuffz.snow_ring": "Snow Ring",
+  "itemTooltip.deltarune-stuffz.snow_ring_desc": "A ring with the emblem of the snowflake.",
+  "itemTooltip.deltarune-stuffz.snow_ring_stats": "- +1 Attack",
+
+  "item.deltarune-stuffz.freeze_ring": "Freeze Ring",
+  "itemTooltip.deltarune-stuffz.freeze_ring_desc": "A ring with a snowglobe on it. \n ... is that someone inside?",
+  "itemTooltip.deltarune-stuffz.freeze_ring_stats": "- +4 Attack\n- +4 Magic",
+
+  "item.deltarune-stuffz.thorn_ring": "Thorn ring",
+  "itemTooltip.deltarune-stuffz.thorn_ring_desc": "Wearer takes damage from pain. Reduces the TP cost of ice spells.",
+  "itemTooltip.deltarune-stuffz.thorn_ring_stats": "- +14 Attack\n- +12 Magic\n- Trance\n- Drains wearer's max HP to 1/3 of It's base value\n- Reduces the cost of ice spells by half",
+
 
 
   "item.deltarune-stuffz.friend_inside_me_musicdisc": "Music Disc",

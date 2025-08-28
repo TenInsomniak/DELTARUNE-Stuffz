@@ -1,0 +1,6 @@
+{
+  "parent": "deltarune-stuffz:item/dr_axe",
+  "textures": {
+    "layer0": "deltarune-stuffz:item/justice_axe"
+  }
+}
