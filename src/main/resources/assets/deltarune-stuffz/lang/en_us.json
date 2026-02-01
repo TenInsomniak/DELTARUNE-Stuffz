@@ -54,6 +54,7 @@
 
   "item.deltarune-stuffz.mane_ax": "Mane Ax",
   "itemTooltip.deltarune-stuffz.mane_ax_desc": "Beginner's ax forged from the mane of a dragon whelp.",
+  "itemTooltip.deltarune-stuffz.mane_ax_stats": "- +1 Attack",
 
   "item.deltarune-stuffz.brave_ax": "Brave Ax",
   "itemTooltip.deltarune-stuffz.brave_ax_desc": "A glossy ax from a block warrior. Suitable for heroes.",
@@ -101,7 +102,10 @@
   "item.deltarune-stuffz.dont_forget_musicdisc.desc": "Laura Shigihara - Don't Forget",
 
 
-  "itemGroup.deltarune-stuffz.deltarune_weapons": "DELTARUNE Weapons",
+  "itemGroup.deltarune-stuffz.deltarune_swords": "DELTARUNE Swords",
+  "itemGroup.deltarune-stuffz.deltarune_axes": "DELTARUNE Axes",
+  "itemGroup.deltarune-stuffz.deltarune_scarves": "DELTARUNE Scarves",
+  "itemGroup.deltarune-stuffz.deltarune_rings": "DELTARUNE Rings",
   "itemGroup.deltarune-stuffz.deltarune_armour": "DELTARUNE Armour",
   "itemGroup.deltarune-stuffz.deltarune_blocks": "DELTARUNE Blocks",
   "itemGroup.deltarune-stuffz.deltarune_items": "DELTARUNE Items",
