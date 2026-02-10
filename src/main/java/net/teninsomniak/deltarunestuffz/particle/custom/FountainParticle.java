@@ -4,19 +4,28 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.particle.*;
 import net.minecraft.client.world.ClientWorld;
+import net.minecraft.entity.Entity;
 import net.minecraft.particle.DefaultParticleType;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.world.World;
 
 public class FountainParticle extends SpriteBillboardParticle {
+    private final SpriteProvider spriteProvider;
+
     protected FountainParticle(ClientWorld level, double xCoord, double yCoord, double zCoord,
                                SpriteProvider spriteSet, double xd, double yd, double zd) {
         super(level, xCoord, yCoord, zCoord, xd, yd, zd);
 
-        this.velocityMultiplier = 0.6f;
+        this.spriteProvider = spriteSet;
+        this.velocityMultiplier = 0.0f;
         this.x = xd;
         this.y = yd;
         this.z = zd;
-        this.scale *= 0.75f;
-        this.maxAge = 20;
+        //this.scale *= 0.75f;
+        this.scale(2.0f);
+        //this.maxAge = 20;
+        this.maxAge = 10;
         this.setSpriteForAge(spriteSet);
 
         this.red = 1f;
@@ -24,8 +33,13 @@ public class FountainParticle extends SpriteBillboardParticle {
         this.blue = 1f;
     }
 
-    //fading
+    @Override
+    public void tick() {
+        super.tick();
+        this.setSpriteForAge(this.spriteProvider);
+    }
 
+    //fading
     /*
     @Override
     public void tick() {

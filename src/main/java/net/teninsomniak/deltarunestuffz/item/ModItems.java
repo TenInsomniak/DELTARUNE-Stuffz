@@ -10,6 +10,12 @@ import net.minecraft.util.registry.Registry;
 import net.teninsomniak.deltarunestuffz.sound.ModSounds;
 
 public class ModItems {
+    //Testing
+    public static final Item PARTICLE_TEST = registerItem("particle_test",
+            new ParticleTestItem(new FabricItemSettings().maxCount(1).group(ModItemGroup.TEST_ITEMS)));
+
+
+
     //Other
     public static final Item FRIEND_INSIDE_ME_MUSICDISC = registerItem("friend_inside_me_musicdisc",
             new MusicDiscItem(9, ModSounds.FRIEND_INSIDE_ME,

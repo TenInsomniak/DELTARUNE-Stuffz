@@ -26,4 +26,6 @@ public class ModItemGroup {
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_mobs"), () -> new ItemStack(Items.PIG_SPAWN_EGG));
     public static final ItemGroup DELTARUNE_UNUSED = FabricItemGroupBuilder.build(
             new Identifier(DELTARUNEStuffz.MOD_ID, "deltarune_unused"), () -> new ItemStack(Items.BARRIER));
+    public static final ItemGroup TEST_ITEMS = FabricItemGroupBuilder.build(
+            new Identifier(DELTARUNEStuffz.MOD_ID, "test_items"), () -> new ItemStack(Items.BARRIER));
 }
