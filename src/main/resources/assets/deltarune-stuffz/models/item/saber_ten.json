@@ -1,6 +1,0 @@
-{
-  "parent": "deltarune-stuffz:item/dr_sword",
-  "textures": {
-    "layer0": "deltarune-stuffz:item/saber10"
-  }
-}

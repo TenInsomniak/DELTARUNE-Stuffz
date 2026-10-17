@@ -3,41 +3,39 @@
 	"id": "deltarune-stuffz",
 	"version": "${version}",
 	"name": "DELTARUNE Stuffz",
-	"description": "A mod that adds stuff from the hit idie game DELTARUNE.",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Ten Insomniak"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/TenInsomniak/DELTARUNE-Stuffz"
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT License",
+	"license": "CC0-1.0",
 	"icon": "assets/deltarune-stuffz/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffz"
+			"net.teninsomniak.DELTARUNEStuffz"
 		],
 		"client": [
-			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffzClient"
+			"net.teninsomniak.client.DELTARUNEStuffzClient"
 		],
 		"fabric-datagen": [
-			"net.teninsomniak.deltarunestuffz.DELTARUNEStuffzDataGenerator"
+			"net.teninsomniak.client.DELTARUNEStuffzDataGenerator"
 		]
 	},
 	"mixins": [
-		"deltarune-stuffz.mixins.json"
+		"deltarune-stuffz.mixins.json",
+		{
+			"config": "deltarune-stuffz.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.19.2",
-		"java": ">=17",
-		"fabric-api": "*",
-		"trinkets": ">=3.4.1",
-		"geckolib3": ">=3.1.40",
-		"tooltipfix": ">=1.1.0-1.19"
-	},
-	"suggests": {
-
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
 	}
 }
