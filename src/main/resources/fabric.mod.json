@@ -18,19 +18,12 @@
 		"main": [
 			"net.teninsomniak.DELTARUNEStuffz"
 		],
-		"client": [
-			"net.teninsomniak.client.DELTARUNEStuffzClient"
-		],
 		"fabric-datagen": [
-			"net.teninsomniak.client.DELTARUNEStuffzDataGenerator"
+			"net.teninsomniak.DELTARUNEStuffzDataGenerator"
 		]
 	},
 	"mixins": [
-		"deltarune-stuffz.mixins.json",
-		{
-			"config": "deltarune-stuffz.client.mixins.json",
-			"environment": "client"
-		}
+		"deltarune-stuffz.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",

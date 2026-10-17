@@ -11,17 +11,6 @@ repositories {
 	// for more information about repositories.
 }
 
-loom {
-	splitEnvironmentSourceSets()
-
-	mods {
-		"deltarune-stuffz" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-}
-
 fabricApi {
 	configureDataGeneration {
 		client = true

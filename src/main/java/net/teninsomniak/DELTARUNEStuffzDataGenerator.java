@@ -1,4 +1,4 @@
-package net.teninsomniak.client;
+package net.teninsomniak;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
