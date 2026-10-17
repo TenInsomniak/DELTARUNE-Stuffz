@@ -1,4 +1,4 @@
-package net.teninsomniak;
+package net.teninsomniak.deltarunestuffz;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

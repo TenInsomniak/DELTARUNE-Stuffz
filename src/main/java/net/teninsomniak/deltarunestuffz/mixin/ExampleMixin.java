@@ -1,4 +1,4 @@
-package net.teninsomniak.mixin;
+package net.teninsomniak.deltarunestuffz.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
